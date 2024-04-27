@@ -8,9 +8,9 @@ import Kart from './Kart';
 
 const AppBar = () => {
   return (
-    <div><Navbar expand="lg" className="bg-body-tertiary " id='naav'>
+    <div> <Navbar expand="lg" className="bg-body-tertiary " id='naav'>
     <Container >
-      <Navbar.Brand href="#home"><h2 className='text-success .ubuntu-regular fw-bold'><span ><i class="bi bi-fire text-warning"></i>Ash! kitchen!</span></h2></Navbar.Brand>
+      <Navbar.Brand href="#home"><h2 className='text-success .ubuntu-regular fw-bold'><span ><i class="bi bi-fire text-warning"></i>Ash! kitchen!</span></h2> </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" className='justify-content-end'>
         <Nav >
